@@ -1,6 +1,6 @@
-# Top-level Config.in for AESD external tree
+# AESD external Buildroot layer menu
 
 menu "AESD custom packages"
-    source "package/Config.in"
+    # Point directly to the aesd-assignments package Kconfig
+    source "../base_external/package/aesd-assignments/Config.in"
 endmenu
-
