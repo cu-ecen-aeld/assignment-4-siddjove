@@ -1,2 +1,1 @@
-# Extra make logic for the AESD external tree (currently none needed)
-
+# Extra make logic for AESD external tree (none needed)
