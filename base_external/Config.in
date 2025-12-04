@@ -1,3 +1,4 @@
 menu "External packages"
-source "base_external/package/aesd-assignments/Config.in"
+# path is relative to the buildroot/ directory when buildroot runs make
+source "../base_external/package/aesd-assignments/Config.in"
 endmenu
