@@ -1,6 +1,3 @@
-# AESD external Buildroot layer menu
-
-menu "AESD custom packages"
-    # Point directly to the aesd-assignments package Kconfig
-    source "../base_external/package/aesd-assignments/Config.in"
+menu "External packages"
+source "package/aesd-assignments/Config.in"
 endmenu

@@ -1,1 +1,2 @@
-# Extra make logic for AESD external tree (none needed)
+# Register this external
+BR2_EXTERNAL := $(CURDIR)/base_external
