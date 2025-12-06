@@ -4,6 +4,6 @@
 
 menu "Base external package selection"
 
-source "base_external/package/aesd-assignments/Config.in"
+source "package/aesd-assignments/Config.in"
 
 endmenu
