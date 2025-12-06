@@ -1,2 +1,3 @@
-external.name = project_base
-external.version = 1
+name: project_base
+desc: Project base external for AESD assignment 4
+version: 1
