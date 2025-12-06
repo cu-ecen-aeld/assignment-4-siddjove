@@ -1,4 +1,4 @@
-menu "External packages"
-# Using absolute path as a reliable workaround so Kconfig can always find the package file
-source "/home/siddjove/assignment-4-siddjove/base_external/package/aesd-assignments/Config.in"
+menu "Project base externals"
+	source "package/aesd-assignments/Config.in"
 endmenu
+

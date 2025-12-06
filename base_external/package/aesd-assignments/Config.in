@@ -1,4 +1,6 @@
 config BR2_PACKAGE_AESD_ASSIGNMENTS
-    bool "aesd-assignments"
-    help
-      Adds the aesd assignment utilities (writer, finder scripts/tester).
+	bool "aesd-assignments"
+	help
+	  Build and install the AESD assignment tools (writer, finder, scripts).
+	  Pulls your assignment-3 repository via SSH.
+
