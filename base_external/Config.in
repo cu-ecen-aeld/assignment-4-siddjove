@@ -1,9 +1,6 @@
-#
-# External packages and project configuration for AESD assignments
-#
+menu "Project Base external options"
 
-menu "Base external package selection"
-
-source "package/aesd-assignments/Config.in"
+# Your external packages will be sourced here
+source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/Config.in"
 
 endmenu
