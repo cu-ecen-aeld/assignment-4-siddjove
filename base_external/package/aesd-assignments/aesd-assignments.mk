@@ -8,6 +8,7 @@
 AESD_ASSIGNMENTS_VERSION = 89167357d86f8c4c8229b7e4bd986564285f01a8
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-siddjove.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
+AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 
 # Build the finder-app using the cross compiler
 define AESD_ASSIGNMENTS_BUILD_CMDS
