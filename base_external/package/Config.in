@@ -1,3 +1,4 @@
 menu "AESD custom packages"
     source "aesd-assignments/Config.in"
 endmenu
+source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/aesd-assignments/Config.in"
